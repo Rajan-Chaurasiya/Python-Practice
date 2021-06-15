@@ -4,10 +4,8 @@ def fact(x):
         f = f*i
     return f
 
-
-
-n = int(input("enter a number:"))
-
+n = int(input("enter a number: "))
 result = fact(n)
-
 print(result)
+
+

@@ -8,6 +8,7 @@ while(n>0):
     n = n//10
 
 if(temp == sum):
+    
     print("This number is armstrong")
 else:
     print("This number is not armstrong")

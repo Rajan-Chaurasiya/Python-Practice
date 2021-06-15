@@ -1,13 +1,23 @@
-n=int(input("Enter number:"))
-temp=n
-rev=0
-while(n>0):
-    dig=n%10
-    rev=rev*10+dig
-    n=n//10
+# num = int(input("Enter a number: "))
 
-print(rev)
-# if(temp==rev):
-#     print("The number is a palindrome!")
+# rev = 0
+# temp = num
+
+# while(num > 0):
+#     digit = num % 10;
+#     rev = (rev * 10) + digit;
+#     num = num // 10;
+
+# if(temp == rev):
+#     print("palindrom")
 # else:
-#     print("The number isn't a palindrome!")
+#     print("not palidrome")
+
+string = input("enter a string :")
+if(string == string[::-1]):
+    print("The string is palindrome")
+else:
+    print("The string is not palindrome")
+
+
+
